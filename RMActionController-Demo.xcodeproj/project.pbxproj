@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840F1CD81DBF588600F50061 /* IRANSans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840F1CD31DBF588600F50061 /* IRANSans_Bold.ttf */; };
+		840F1CD91DBF588600F50061 /* IRANSans_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840F1CD41DBF588600F50061 /* IRANSans_Light.ttf */; };
+		840F1CDA1DBF588600F50061 /* IRANSans_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840F1CD51DBF588600F50061 /* IRANSans_Medium.ttf */; };
+		840F1CDB1DBF588600F50061 /* IRANSans_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840F1CD61DBF588600F50061 /* IRANSans_UltraLight.ttf */; };
+		840F1CDC1DBF588600F50061 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840F1CD71DBF588600F50061 /* IRANSans.ttf */; };
 		CA3FDCAB1B35E1B200590165 /* RMActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3FDCA61B35E1B200590165 /* RMActionTests.m */; };
 		CA3FDCAC1B35E1B200590165 /* RMGroupedActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3FDCA71B35E1B200590165 /* RMGroupedActionTests.m */; };
 		CA3FDCAD1B35E1B200590165 /* RMCustomViewActionControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3FDCA81B35E1B200590165 /* RMCustomViewActionControllerTests.m */; };
@@ -121,6 +126,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		840F1CD31DBF588600F50061 /* IRANSans_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Bold.ttf; sourceTree = "<group>"; };
+		840F1CD41DBF588600F50061 /* IRANSans_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Light.ttf; sourceTree = "<group>"; };
+		840F1CD51DBF588600F50061 /* IRANSans_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Medium.ttf; sourceTree = "<group>"; };
+		840F1CD61DBF588600F50061 /* IRANSans_UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_UltraLight.ttf; sourceTree = "<group>"; };
+		840F1CD71DBF588600F50061 /* IRANSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans.ttf; sourceTree = "<group>"; };
 		CA38CB371B35EF0F000837D8 /* RMActionController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RMActionController+Private.h"; sourceTree = "<group>"; };
 		CA3FDC9B1B35E1A700590165 /* RMActionController-Demo-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RMActionController-Demo-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3FDC9E1B35E1A700590165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -320,6 +330,11 @@
 			children = (
 				CAD311A51B01507300D905F7 /* Info.plist */,
 				CAD311A61B01507300D905F7 /* main.m */,
+				840F1CD31DBF588600F50061 /* IRANSans_Bold.ttf */,
+				840F1CD41DBF588600F50061 /* IRANSans_Light.ttf */,
+				840F1CD51DBF588600F50061 /* IRANSans_Medium.ttf */,
+				840F1CD61DBF588600F50061 /* IRANSans_UltraLight.ttf */,
+				840F1CD71DBF588600F50061 /* IRANSans.ttf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -529,6 +544,7 @@
 					};
 					CAD311A01B01507300D905F7 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MCY4CDK95D;
 					};
 					CAD311DA1B01517800D905F7 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -588,9 +604,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840F1CD81DBF588600F50061 /* IRANSans_Bold.ttf in Resources */,
+				840F1CDB1DBF588600F50061 /* IRANSans_UltraLight.ttf in Resources */,
+				840F1CD91DBF588600F50061 /* IRANSans_Light.ttf in Resources */,
+				840F1CDA1DBF588600F50061 /* IRANSans_Medium.ttf in Resources */,
 				CAD311B31B01507400D905F7 /* Main.storyboard in Resources */,
 				CAD311B81B01507400D905F7 /* LaunchScreen.xib in Resources */,
 				CAD311B51B01507400D905F7 /* Images.xcassets in Resources */,
+				840F1CDC1DBF588600F50061 /* IRANSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,9 +969,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCY4CDK95D;
 				INFOPLIST_FILE = "RMActionController-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cooperrs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "rash1ironpunch-Gmail.com.RMActionController-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -959,9 +981,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCY4CDK95D;
 				INFOPLIST_FILE = "RMActionController-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.cooperrs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "rash1ironpunch-Gmail.com.RMActionController-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

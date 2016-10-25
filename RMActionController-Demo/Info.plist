@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>IRANSansMobile.ttf</string>
+		<string>IRANSans_Bold.ttf</string>
+		<string>IRANSans_Light.ttf</string>
+		<string>IRANSans_Medium.ttf</string>
+		<string>IRANSans_UltraLight.ttf</string>
+		<string>IRANSans.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

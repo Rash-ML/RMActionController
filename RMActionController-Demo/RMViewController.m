@@ -56,8 +56,10 @@
     }];
     
     RMCustomViewActionController *actionController = [RMCustomViewActionController actionControllerWithStyle:style];
-    actionController.title = @"Test";
-    actionController.message = @"This is a test action controller.\nPlease tap 'Select' or 'Cancel'.";
+    actionController.title = @"تست";
+    actionController.message = @"سیلیبیل یبل یبل یبل یبل یبل یب";
+    [actionController setUpCustomFont];
+    
     
     [actionController addAction:selectAction];
     [actionController addAction:cancelAction];

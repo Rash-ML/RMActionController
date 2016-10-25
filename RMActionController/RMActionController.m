@@ -223,13 +223,13 @@ typedef NS_ENUM(NSInteger, RMActionControllerAnimationStyle) {
 
     // [UIFont fontWithName:@"IRANSans-Bold" size:12.0f]];
     //smallSystemFontSize
-    self.headerTitleLabel.font = [UIFont fontWithName:@"IRANSans-Bold" size:smallSystemFontSize]];
-    self.headerMessageLabel.font = [UIFont fontWithName:@"IRANSans-Light" size:smallSystemFontSize]];
+    self.headerTitleLabel.font = [UIFont fontWithName:@"IRANSans-Bold" size:smallSystemFontSize];
+    self.headerMessageLabel.font = [UIFont fontWithName:@"IRANSans-Light" size:smallSystemFontSize];
     if(self.style == RMActionStyleCancel)
     {
-        actionButton.titleLabel.font = [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize]];
+        actionButton.titleLabel.font = [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize];
     } else {
-        actionButton.titleLabel.font =  [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize]];
+        actionButton.titleLabel.font =  [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize];
     }
 }
 - (void)setupContainerElements {
