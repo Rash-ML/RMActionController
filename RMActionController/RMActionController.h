@@ -122,6 +122,13 @@ typedef NS_ENUM(NSInteger, RMActionControllerStyle) {
  */
 @property (nonatomic, assign) BOOL disableBackgroundTaps;
 
+/**
+ * custom Font for diffrent Position of view like button , title , ...
+ */
+@property (nullable, nonatomic, copy) UIFont *customFont;
+
+-(void)setUpCustomFont;
+
 /// @name Actions
 #pragma mark - Actions
 

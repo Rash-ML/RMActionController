@@ -218,6 +218,20 @@ typedef NS_ENUM(NSInteger, RMActionControllerAnimationStyle) {
     self.headerMessageLabel.numberOfLines = 0;
 }
 
+
+-(void)setUpCustomFont {
+
+    // [UIFont fontWithName:@"IRANSans-Bold" size:12.0f]];
+    //smallSystemFontSize
+    self.headerTitleLabel.font = [UIFont fontWithName:@"IRANSans-Bold" size:smallSystemFontSize]];
+    self.headerMessageLabel.font = [UIFont fontWithName:@"IRANSans-Light" size:smallSystemFontSize]];
+    if(self.style == RMActionStyleCancel)
+    {
+        actionButton.titleLabel.font = [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize]];
+    } else {
+        actionButton.titleLabel.font =  [UIFont fontWithName:@"IRANSans-Medium" size:smallSystemFontSize]];
+    }
+}
 - (void)setupContainerElements {
     //Top container
     if(self.disableBlurEffects) {
@@ -480,6 +494,8 @@ typedef NS_ENUM(NSInteger, RMActionControllerAnimationStyle) {
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(10)-[topContainer]" options:0 metrics:nil views:@{@"topContainer": self.topContainer}]];
 }
 
+
+
 - (void)viewDidLoad {
     NSAssert(self.contentView != nil, @"Error: The view of an RMActionController has been loaded before a contentView has been set. You have to set the contentView before presenting a RMActionController.");
     
@@ -676,6 +692,10 @@ typedef NS_ENUM(NSInteger, RMActionControllerAnimationStyle) {
 
 - (void)setMessage:(NSString *)message {
     self.headerMessageLabel.text = message;
+}
+
+- (void)setCustomFont:(UIFont *)customfont {
+    self.customFont = customfont;
 }
 
 #pragma mark - Custom Transitions
